@@ -1,37 +1,30 @@
 
 
 <div>
-    <div style="display:flex; justify-content:center; margin: 50px 0; position:relative" >
-        <img src="./perfil.png" alt="perfil" style='width:400px; height:400px'>
-        <div style='border:1px white dashed; width:100%; height:100%; position:absolute; z-index:-1; border-radius:100%;left:10px;top:10px'></div>
+    <div class="c" >
+        <img id='perfil' src="./perfil.png" alt="perfil" style=''>
+        <h1>João Pedro Bepu</h1>
     </div>
 
-<h1 style='position:absolute;'>Oi! Meu nome é João Pedro Bepu</h1>
+
 
 ```jsx
 
 const SobreMim = () => {
     return(
         <div>
-            <h2>Designer Gráfico, Programador e Ilustrador.</h2>
+            <h2> Designer Gráfico | Programador </h2>
             <h3>
-            Tenho um interesse enorme por arte e tudo o que envolve código!
-            Atualmente estou desenvolvendo alguns projetos pessoais na área
-            de front-end com React!
+            Tenho um interesse enorme por arte e tudo 
+            o que envolve código! Atualmente estou
+            desenvolvendo alguns projetos pessoais na
+            área de front-end com React!
             </h3>
         </div>
-    );
-}
+    );}
 
 ```
 </div>
-
-
-### 
-
-### 
-
-### 
 
 
 
@@ -40,10 +33,7 @@ const SobreMim = () => {
 
 
 
-
-
-
-## Minhas Skills 🛠️
+## Minhas Skills 
 
 
 ### Dev
@@ -71,17 +61,38 @@ const SobreMim = () => {
 ![figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
 ![ps](https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=Adobe%20Photoshop&logoColor=black)
-
 ![ilustrator](https://img.shields.io/badge/Adobe%20Illustrator-FF9A00?style=for-the-badge&logo=adobe%20illustrator&logoColor=white)
-
 ![inDesign](https://img.shields.io/badge/Adobe%20InDesign-FF3366?style=for-the-badge&logo=Adobe%20InDesign&logoColor=white)
-
 ![ae](https://img.shields.io/badge/Adobe%20after%20affects-CF96FD?style=for-the-badge&logo=Adobe%20after%20effects&logoColor=393665)
-
 ![premierePro](https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF?style=for-the-badge&logo=Adobe%20Premiere%20Pro&logoColor=white)
-
 
 
 <br>
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jpbepu&layout=compact&theme=monokai)
+
+
+
+
+<style>
+
+    .c{
+        display:flex;
+        justify-content:space-around;
+        align-items:center;
+        flex-direction:column;
+    }
+
+    #perfil{
+        margin-top: 36px;
+        width:200px;
+        filter: drop-shadow(16px 16px 16px #121218);
+    }
+
+    h1{
+        margin: 36px;
+        font-size:32pt;
+
+    }
+    
+</style>
